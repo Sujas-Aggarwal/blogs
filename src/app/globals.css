@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    font-family: 'Playwrite BE VLG','sans-serif';
+}
+body{
+    @apply bg-[#EDEDE9]
+}
+::selection{
+    @apply bg-[#D5BDAF] 
+}
+::-webkit-scrollbar{
+    width: 0;
+}
